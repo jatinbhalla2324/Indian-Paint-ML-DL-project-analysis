@@ -1,0 +1,8 @@
+model,family,MAPE %,MAE (Cr),RMSE (Cr),Rel. MAE,DM stat vs best rule,DM p-value,n
+Same as last year,Baseline,4.0951,429.2083,601.1714,1.0,-1.9022,0.0836,12
+Ridge,ML,5.7544,693.4917,1191.8468,1.6157,-0.9921,0.3425,12
+Last year x latest growth,Baseline,7.4356,1109.1885,1824.4398,2.5843,,,12
+Ensemble (Ridge + RF),ML,7.716,1023.906,1664.1341,2.3856,-0.2402,0.8146,12
+Huber,ML,7.9718,1288.0785,2217.1862,3.0011,0.5454,0.5964,12
+Random Forest,ML,10.1574,1375.0958,2256.7785,3.2038,0.7275,0.4821,12
+Last year x 2-yr avg growth,Baseline,10.7333,1594.815,2685.5905,3.7157,1.6576,0.1256,12

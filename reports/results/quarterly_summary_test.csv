@@ -1,0 +1,12 @@
+model,family,MAPE %,MAE (Cr),RMSE (Cr),Rel. MAE,DM stat vs best rule,DM p-value,n
+GRU (5-seed ensemble),DL,3.8355,113.4698,192.5261,0.8873,-0.5557,0.5811,48
+Same quarter last year x latest YoY growth,Baseline,3.9933,121.6274,192.8628,0.9511,,,48
+Ensemble (Ridge + RF + LightGBM),ML,4.0131,125.4569,209.6625,0.9811,0.1866,0.8528,48
+Ridge,ML,4.0351,127.8567,204.1195,0.9998,0.3847,0.7022,48
+MLP (5-seed ensemble),DL,4.0416,116.5454,193.9719,0.9114,-0.2715,0.7872,48
+Random Forest,ML,4.0701,130.2969,218.1665,1.0189,0.3938,0.6955,48
+LightGBM,ML,4.451,142.4678,236.9397,1.1141,0.9198,0.3624,48
+Same quarter last year,Baseline,4.5758,127.8771,215.8011,1.0,0.2973,0.7675,48
+Same quarter last year x 4-qtr avg growth,Baseline,4.8424,166.0323,281.2193,1.2984,2.3163,0.025,48
+Huber,ML,5.9511,188.3061,321.5576,1.4726,1.8961,0.0641,48
+Same as last quarter,Baseline,10.1983,259.9977,348.2857,2.0332,5.0864,0.0,48

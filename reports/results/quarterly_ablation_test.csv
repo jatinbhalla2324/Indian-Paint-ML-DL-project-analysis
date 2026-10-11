@@ -1,0 +1,6 @@
+model,family,MAPE %,MAE (Cr),RMSE (Cr),Rel. MAE,DM stat vs best rule,DM p-value,n
+Same quarter last year x latest YoY growth,Baseline,3.9933,121.6274,192.8628,0.9511,,,48
+GBM on growth (no anchor),Ablation,4.3227,138.6133,235.3789,1.084,0.6822,0.4985,48
+GBM on growth + residual to rule,Ablation,4.4383,134.9228,225.5685,1.0551,0.5456,0.5879,48
+Same quarter last year,Baseline,4.5758,127.8771,215.8011,1.0,0.2973,0.7675,48
+GBM on revenue level (v1 framing),Ablation,9.6415,170.5241,234.2992,1.3335,2.1248,0.0389,48

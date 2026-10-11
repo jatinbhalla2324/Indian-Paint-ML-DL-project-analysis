@@ -1,0 +1,14 @@
+model,family,mean_abs_error_pct
+Huber,ML,3.4801
+Management guidance,Guidance,3.8396
+LightGBM,ML,4.054
+Hybrid: GRU (5-seed ensemble) + guidance,Guidance,4.2193
+MLP (5-seed ensemble),DL,4.5716
+GRU (5-seed ensemble),DL,4.5951
+Ensemble (Ridge + RF + LightGBM),ML,4.7565
+Ridge,ML,4.947
+Random Forest,ML,5.264
+Same quarter last year x latest YoY growth,Baseline,5.4338
+Same quarter last year x 4-qtr avg growth,Baseline,9.334
+Same quarter last year,Baseline,12.5815
+Same as last quarter,Baseline,17.0278

@@ -1,0 +1,12 @@
+{
+  "freq": "A",
+  "seeds": 5,
+  "device": "cpu",
+  "runtime_s": 3.7,
+  "python": "3.14.3",
+  "test_window": [
+    "FY2024",
+    "FY2026"
+  ],
+  "n_test_rows": 12
+}

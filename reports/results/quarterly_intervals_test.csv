@@ -1,0 +1,12 @@
+model,coverage %,avg width %,n
+Ensemble (Ridge + RF + LightGBM),83.3,18.4,48.0
+GRU (5-seed ensemble),95.8,19.9,48.0
+Huber,68.8,20.8,48.0
+LightGBM,81.2,19.1,48.0
+MLP (5-seed ensemble),95.8,21.4,48.0
+Random Forest,85.4,18.4,48.0
+Ridge,85.4,19.4,48.0
+Same as last quarter,79.2,36.1,48.0
+Same quarter last year,68.8,16.3,48.0
+Same quarter last year x 4-qtr avg growth,72.9,14.5,48.0
+Same quarter last year x latest YoY growth,89.6,18.3,48.0

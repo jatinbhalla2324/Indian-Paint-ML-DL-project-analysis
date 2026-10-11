@@ -1,0 +1,13 @@
+company,model,target_period,base_revenue,forecast,lower,upper,growth %,actual,error %
+Asian Paints,Ensemble (Ridge + RF + LightGBM),FY2027 Q1,7868.45,8700.7,8104.8,9093.22,10.58,9156.0,-4.97
+Asian Paints,GRU (5-seed ensemble),FY2027 Q1,7868.45,8727.33,8384.34,9162.69,10.92,9156.0,-4.68
+Asian Paints,Same quarter last year x latest YoY growth,FY2027 Q1,7868.45,8664.69,8352.19,9071.98,10.12,9156.0,-5.37
+Berger Paints,Ensemble (Ridge + RF + LightGBM),FY2027 Q1,2862.62,3081.35,2870.31,3220.36,7.64,3226.68,-4.5
+Berger Paints,GRU (5-seed ensemble),FY2027 Q1,2862.62,3092.09,2970.57,3246.34,8.02,3226.68,-4.17
+Berger Paints,Same quarter last year x latest YoY growth,FY2027 Q1,2862.62,3053.53,2943.4,3197.06,6.67,3226.68,-5.37
+Kansai Nerolac,Ensemble (Ridge + RF + LightGBM),FY2027 Q1,2087.42,2264.77,2109.66,2366.94,8.5,2299.52,-1.51
+Kansai Nerolac,GRU (5-seed ensemble),FY2027 Q1,2087.42,2271.94,2182.65,2385.28,8.84,2299.52,-1.2
+Kansai Nerolac,Same quarter last year x latest YoY growth,FY2027 Q1,2087.42,2246.95,2165.91,2352.57,7.64,2299.52,-2.29
+Indigo Paints,Ensemble (Ridge + RF + LightGBM),FY2027 Q1,294.85,321.87,299.82,336.39,9.16,350.0,-8.04
+Indigo Paints,GRU (5-seed ensemble),FY2027 Q1,294.85,320.85,308.24,336.86,8.82,350.0,-8.33
+Indigo Paints,Same quarter last year x latest YoY growth,FY2027 Q1,294.85,319.49,307.97,334.51,8.36,350.0,-8.72

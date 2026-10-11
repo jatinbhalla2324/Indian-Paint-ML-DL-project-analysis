@@ -1,0 +1,8 @@
+model,Asian Paints,Berger Paints,Indigo Paints,Kansai Nerolac
+Ensemble (Ridge + RF),8.8,8.05,6.89,7.12
+Huber,13.87,4.19,8.52,5.31
+Last year x 2-yr avg growth,14.86,10.56,8.19,9.32
+Last year x latest growth,10.5,6.84,6.16,6.25
+Random Forest,11.79,10.58,8.15,10.11
+Ridge,5.97,5.6,7.21,4.23
+Same as last year,3.62,3.12,6.73,2.91
